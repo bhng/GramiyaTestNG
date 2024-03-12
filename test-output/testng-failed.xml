@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg_Day9.Task_Read_Excel">
+      <class name="TestNg_Day6.ParallelTest">
         <methods>
-          <include name="signup"/>
+          <include name="launch"/>
           <include name="setup"/>
+          <include name="close"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- TestNg_Day9.Task_Read_Excel -->
+      </class> <!-- TestNg_Day6.ParallelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
